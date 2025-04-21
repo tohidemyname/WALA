@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.ibm.wala.shrike
+Bundle-Version: 1.4.4.qualifier
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Export-Package: com.ibm.wala.shrike.bench,
+ com.ibm.wala.shrike.cg,
+ com.ibm.wala.shrike.copywriter,
+ com.ibm.wala.shrike.instrumentation
+Require-Bundle: com.ibm.wala.util;resolution:=optional
+Bundle-ClassPath: src/,
+ .
+Automatic-Module-Name: com.ibm.wala.shrike
